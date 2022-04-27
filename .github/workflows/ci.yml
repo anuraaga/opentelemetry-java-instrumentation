@@ -57,7 +57,7 @@ jobs:
 
       - name: Check markdown links
         # using retry because of sporadic external site failures
-        uses: nick-invision/retry@v2.6.0
+        uses: nick-invision/retry@v2.7.0
         with:
           # timing out has not been a problem
           timeout_minutes: 15
